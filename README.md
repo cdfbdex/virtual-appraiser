@@ -43,7 +43,7 @@ La decisión final del precio de M2 se ha propuesto de tal forma que HABI obteng
 ## How to run
 
 1. Download this repo to a folder on your G-Drive
-2. Download model from this URL, uncompress and locate in the same folder as mentioned in (1).
+2. Download model from this [URL](https://www.dropbox.com/s/gxvy56y5amf3ius/model.zip?dl=0), uncompress and locate in the same folder as mentioned in (1).
 3. Open 'ElAlgoritmoEsCorrecto.ipynb' with Google Colab
 4. Set dataPath variable according  your environment
 5. Just run 'All Cells' on Google Colab and get your results
