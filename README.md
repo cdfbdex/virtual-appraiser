@@ -1,5 +1,7 @@
 # virtual-appraiser
 
+## Description
+
 Virtual-Appraiser emula la capacidad de búsqueda y análisis de información de los avaluadores inmobiliarios utilizando data histórica de ventas, datos abiertos y técnicas de web scrapping  basado en análisis de imágenes mediante técnicas de reconocimiento óptico de caracteres y de aprendizaje profundo (DeepLearning).
 
 **Algoritmo**: Virtual-Appraiser
@@ -37,3 +39,12 @@ Dado que el precio de M2 de una zona es una variable aleatoria y para no suponer
 
 **5. Decisión final**
 La decisión final del precio de M2 se ha propuesto de tal forma que HABI obtenga una ganancia por encima de la inversión. Por tal razón, si el valor de compra del m2 del inmueble se encuentra dentro del intervalo de confianza se propone que HABI trabaje con el valor superior del intervalo de confianza estimado. En caso contrario se propone que HABI obtenga al menos un 3% de ganancia sobre la valorización natural con el paso de los años que sufra el inmueble.
+
+## How to run
+
+1. Download this repo to a folder on your G-Drive
+2. Download model from this URL, uncompress and locate in the same folder as mentioned in (1).
+3. Open 'ElAlgoritmoEsCorrecto.ipynb' with Google Colab
+4. Set dataPath variable according  your environment
+5. Just run 'All Cells' on Google Colab and get your results
+
